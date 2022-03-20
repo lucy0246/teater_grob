@@ -2,6 +2,17 @@
   box-sizing: border-box;
   margin: 0;
 }
+/* Vores farver */
+:root {
+  --color-1: #f8f8f8;
+  --color-2: #95df7c;
+  --color-3: #f203a7;
+  --color-4: #7edff3;
+  --color-5: #3000b4;
+  --color-6: #060d20;
+}
+
+/* billede og video */
 img {
   width: 100%;
   height: auto;
@@ -16,6 +27,30 @@ html {
   background-color: #212121;
 }
 
+/* splash img */
 .splash img {
   transform: scaleX(-1);
+}
+
+/* splashtekst animation */
+.Splash_text {
+  animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: #f203a7;
+  }
+  25% {
+    color: #95df7c;
+  }
+  50% {
+    color: #7edff3;
+  }
+  75% {
+    color: #f1249c;
+  }
+  100% {
+    color: #3000b4;
+  }
 }
