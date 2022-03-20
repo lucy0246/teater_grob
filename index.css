@@ -28,20 +28,6 @@ html {
   background-color: #212121;
 }
 
-/* splash img */
-.splash img {
-  /* transform: scaleX(-1); */
-}
-
-/* splashtekst animation */
-.splash_text {
-  animation: color-change 5s infinite;
-  font-family: rama-gothic-e, sans-serif;
-  font-weight: 800;
-  font-style: Bold;
-  font-size: 4rem;
-}
-
 @keyframes color-change {
   0% {
     color: #f203a7;
@@ -92,6 +78,29 @@ p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: normal;
 }
+/* navigation */
+.grob_logo {
+  width: 50px;
+}
+.nav_tekst {
+  color: #f8f8f8;
+}
+/* splash img */
+.splash img {
+  /* transform: scaleX(-1); */
+  /* height: 750px; */
+  object-position: 80% 0%;
+}
+
+/* splashtekst animation */
+.splash_text {
+  animation: color-change 5s infinite;
+  font-family: rama-gothic-e, sans-serif;
+  font-weight: 800;
+  font-style: Bold;
+  font-size: 4rem;
+}
+/* sectioner */
 #section_2 {
   padding: 20px;
 }
