@@ -30,12 +30,15 @@ html {
 
 /* splash img */
 .splash img {
-  transform: scaleX(-1);
+  /* transform: scaleX(-1); */
 }
 
 /* splashtekst animation */
 .Splash_text {
   animation: color-change 5s infinite;
+  font-family: solex, sans-serif;
+  font-weight: 700;
+  font-style: bold;
 }
 
 @keyframes color-change {
@@ -59,14 +62,36 @@ html {
 /* h2 tekst */
 h2 {
   color: #95df7c;
+  font-family: solex, sans-serif;
+  font-weight: 600;
+  font-style: bold;
+}
+/* h3 tekst */
+h3 {
+  color: #7edff3;
+  font-family: solex, sans-serif;
+  font-weight: 600;
+  font-style: bold;
+}
+/* h4 tekst */
+h4 {
+  color: #3000b4;
+  font-family: solex, sans-serif;
+  font-weight: 600;
+  font-style: bold;
+}
+
+/* p tekst */
+p {
+  color: #f8f8f8;
+  font-family: solex, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Kalender */
 ul {
   list-style-type: none;
-}
-body {
-  font-family: Verdana, sans-serif;
 }
 
 .month {
