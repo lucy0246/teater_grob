@@ -34,11 +34,12 @@ html {
 }
 
 /* splashtekst animation */
-.Splash_text {
+.splash_text {
   animation: color-change 5s infinite;
-  font-family: solex, sans-serif;
-  font-weight: 700;
-  font-style: bold;
+  font-family: rama-gothic-e, sans-serif;
+  font-weight: 800;
+  font-style: Bold;
+  font-size: 4rem;
 }
 
 @keyframes color-change {
@@ -62,31 +63,46 @@ html {
 /* h2 tekst */
 h2 {
   color: #95df7c;
-  font-family: solex, sans-serif;
-  font-weight: 600;
-  font-style: bold;
+  font-family: rama-gothic-e, sans-serif;
+  font-weight: 500;
+  font-style: Bold;
+  text-align: center;
+  font-size: 3rem;
 }
+
 /* h3 tekst */
 h3 {
   color: #7edff3;
-  font-family: solex, sans-serif;
-  font-weight: 600;
-  font-style: bold;
+  font-family: rama-gothic-e, sans-serif;
+  font-weight: 300;
+  font-style: Bold;
 }
+
 /* h4 tekst */
 h4 {
   color: #3000b4;
-  font-family: solex, sans-serif;
-  font-weight: 600;
-  font-style: bold;
+  font-family: rama-gothic-e, sans-serif;
+  font-weight: 200;
+  font-style: Bold;
 }
 
 /* p tekst */
 p {
   color: #f8f8f8;
-  font-family: solex, sans-serif;
-  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: normal;
+}
+#section_2 {
+  padding: 20px;
+}
+#section_3 {
+  padding: 20px;
+}
+#section_4 {
+  padding: 20px;
+}
+#section_5 {
+  padding: 20px;
 }
 
 /* Kalender */
@@ -99,6 +115,9 @@ ul {
   width: 100%;
   background: #f060a3;
   text-align: center;
+  font-family: rama-gothic-e, sans-serif;
+  font-weight: 300;
+  font-style: Bold;
 }
 
 .month ul {
@@ -134,6 +153,9 @@ ul {
   width: 13.6%;
   color: #666;
   text-align: center;
+  font-family: rama-gothic-e, sans-serif;
+  font-weight: 300;
+  font-style: Bold;
 }
 
 .days {
@@ -150,6 +172,9 @@ ul {
   margin-bottom: 5px;
   font-size: 12px;
   color: rgb(0, 0, 0);
+  font-family: rama-gothic-e, sans-serif;
+  font-weight: 300;
+  font-style: Bold;
 }
 
 .days li .active {
