@@ -88,6 +88,7 @@ h3 {
   font-weight: 300;
   font-style: Bold;
   font-size: 2rem;
+  padding-top: 20px;
 }
 
 /* h4 tekst */
@@ -96,6 +97,7 @@ h4 {
   font-family: rama-gothic-e, sans-serif;
   font-weight: 200;
   font-style: Bold;
+  font-size: 2rem;
 }
 
 /* p tekst */
