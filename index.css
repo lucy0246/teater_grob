@@ -174,8 +174,6 @@ header #section_1 .splash_text {
   }
   header #section_1 nav img {
     width: 20%;
-    position: relative;
-    right: -28px;
   }
   header #section_1 .splash_text {
     grid-area: 2 / 1 / 2 / -2;
@@ -252,15 +250,17 @@ header #section_1 .splash_text {
     padding: 60px;
   }
 }
-#section_4 {
-  padding: 20px;
-}
-#section_4 .wrapper1 {
-  line-height: 40px;
-  padding: 20px;
-}
-#section_4 .wrapper2 p {
-  padding: 20px;
+@media (max-width: 400px) {
+  #section_4 {
+    padding: 20px;
+  }
+  #section_4 .wrapper1 {
+    line-height: 40px;
+    padding: 20px;
+  }
+  #section_4 .wrapper2 p {
+    padding: 20px;
+  }
 }
 
 /* Kalender */
@@ -268,7 +268,7 @@ ul {
   list-style-type: none;
 }
 .month {
-  padding: 60px 35px;
+  padding: 40px 35px;
   width: 100%;
   background: #f203a7;
   text-align: center;
