@@ -183,7 +183,7 @@ header #section_1 .splash_text {
 
 /* section 2 */
 #section_2 {
-  padding: 20px;
+  padding: 30px;
   line-height: 40px;
 }
 
@@ -195,22 +195,33 @@ header #section_1 .splash_text {
   /* margin: 1rem; */
   max-width: 100%;
 }
-
 #section_2 .wrapper {
-  max-width: 1100px;
+  /* max-width: 1100px; */
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 32px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
 }
 
-/* section 3 */
-#section_3 {
-  padding: 20px;
+@media (min-width: 600px) {
+  #section_2 .wrapper {
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 28px;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
 }
-/* section 4 */
+
+/* section 3 Video */
+#section_3 {
+  padding: 30px;
+}
+/* section 4  Kalender */
 #section_4 {
-  padding: 20px;
+  padding: 30px;
 }
 
 /* Kalender */
@@ -235,7 +246,7 @@ ul {
 
 .month ul li {
   color: white;
-  font-size: 20px;
+  font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -252,7 +263,7 @@ ul {
 
 .weekdays {
   margin: 0;
-  padding: 10px 0;
+  padding: 20px 0;
   background-color: #ddd;
 }
 
@@ -264,10 +275,11 @@ ul {
   font-family: rama-gothic-e, sans-serif;
   font-weight: 500;
   font-style: Bold;
+  font-size: 1.4rem;
 }
 
 .days {
-  padding: 10px 0;
+  padding: 20px 0;
   background: #eee;
   margin: 0;
 }
@@ -278,7 +290,7 @@ ul {
   width: 13.6%;
   text-align: center;
   margin-bottom: 5px;
-  font-size: 12px;
+  font-size: 1.2rem;
   color: rgb(0, 0, 0);
   font-family: rama-gothic-e, sans-serif;
   font-weight: 500;
@@ -299,16 +311,6 @@ ul {
   }
 }
 
-@media screen and (max-width: 420px) {
-  .weekdays li,
-  .days li {
-    width: 12.5%;
-  }
-  .days li .active {
-    padding: 2px;
-  }
-}
-
 @media screen and (max-width: 290px) {
   .weekdays li,
   .days li {
@@ -316,7 +318,22 @@ ul {
   }
 }
 
-/* section 5 */
+/* section 5 Nørrebrokort*/
 #section_5 {
   padding: 20px;
+}
+
+#section_5 .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  text-align: left;
+}
+
+#section_5 .img1 {
+  grid-column: 1/2;
+}
+#section_5 .tekst1 {
+  grid-column: 2/3;
 }
