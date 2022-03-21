@@ -48,7 +48,14 @@ a {
     color: #3000b4;
   }
 }
-
+/* h1 tekst */
+h1 {
+  font-family: rama-gothic-e, sans-serif;
+  font-weight: 800;
+  font-style: Bold;
+  font-size: 5rem;
+  color: #7edff3;
+}
 /* h2 tekst */
 h2 {
   color: #95df7c;
@@ -104,6 +111,19 @@ p {
 .grob_logo {
   width: 30px;
 }
+nav a {
+  color: #f8f8f8;
+  font-family: azo-sans-web, sans-serif;
+  font-style: light;
+  font-weight: 100;
+}
+nav a:hover {
+  color: #f203a7;
+  font-family: azo-sans-web, sans-serif;
+  font-style: light;
+  font-weight: 100;
+}
+
 /* sectioner */
 
 /* section 1 */
