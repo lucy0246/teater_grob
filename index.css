@@ -27,7 +27,9 @@ video {
 html {
   background-color: #212121;
 }
-
+a {
+  text-decoration: none;
+}
 @keyframes color-change {
   0% {
     color: #f203a7;
@@ -102,6 +104,63 @@ p {
   font-size: 4rem;
 }
 /* sectioner */
+/* section 1 */
+#section_1 {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  width: 100vw;
+  height: 50vh;
+}
+#section_1 .splash {
+  grid-area: 1 / 1 / -1 / -1;
+  z-index: -1;
+}
+#section_1 .splash img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+#section_1 nav {
+  grid-area: 1 / 3 / 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: -50%;
+  margin-left: 10%;
+}
+#section_1 nav img {
+  width: 25%;
+}
+#section_1 .splash_text {
+  grid-area: 2 / 1 / 2 / -2;
+  padding-left: 15%;
+}
+@media (min-width: 600px) {
+  #section_1 {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    width: 100vw;
+    height: 100vh;
+  }
+  #section_1 nav {
+    grid-area: 1 / 3 / 1 / -1;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: -25%;
+    padding-left: 50%;
+  }
+  #section_1 nav img {
+    width: 30%;
+  }
+  #section_1 .splash_text {
+    grid-area: 2 / 1 / 2 / -2;
+    font-size: 8rem;
+    padding-top: 12%;
+  }
+}
+
 /* section 2 */
 #section_2 {
   padding: 20px;
