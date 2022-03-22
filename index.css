@@ -427,6 +427,11 @@ ul {
     font-size: 1rem;
   }
 }
+@media (min-width: 600px) {
+  #section_4 .wrapper1 {
+    padding-top: 0;
+  }
+}
 
 /* section 5 Nørrebrokort*/
 @media (min-width: 600px) {
