@@ -170,7 +170,7 @@ h3 {
 
 /* h4 tekst */
 h4 {
-  color: #3000b4;
+  color: #095ad3;
   font-family: rama-gothic-e, sans-serif;
   font-weight: 200;
   font-style: Bold;
@@ -190,18 +190,25 @@ p {
 /* navigation */
 .grob_logo {
   width: 30px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+nav {
+  text-align: end;
 }
 nav a {
   color: #f8f8f8;
   font-family: azo-sans-web, sans-serif;
   font-style: light;
   font-weight: 100;
+  text-align: end;
 }
 nav a:hover {
   color: #f203a7;
   font-family: azo-sans-web, sans-serif;
   font-style: light;
   font-weight: 100;
+  text-align: end;
 }
 /* sectioner */
 
