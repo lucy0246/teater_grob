@@ -417,3 +417,34 @@ ul {
 #section_5 {
   padding: 40px;
 }
+#section_5 h3 {
+  padding-top: 40px;
+}
+#section_5 .wrapper2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  padding-bottom: 5%;
+}
+#section_5 .wrapper2 .arskort {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+#section_5 .wrapper2 .arskort2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+#section_5 span {
+  font-style: italic;
+}
+#section_5 a {
+  color: #f8f8f8;
+  font-family: azo-sans-web, sans-serif;
+  text-align: center;
+}
+#section_5 a:hover {
+  color: #f203a7;
+  font-family: azo-sans-web, sans-serif;
+  padding-top: 10%;
+}
