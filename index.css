@@ -177,6 +177,7 @@ header #section_1 .splash_text {
   grid-area: 2 / 1 / 2 / -2;
   padding-left: 15%;
 }
+
 @media (min-width: 600px) {
   header #section_1 {
     display: grid;
@@ -200,6 +201,29 @@ header #section_1 .splash_text {
     font-size: 11rem;
     padding-top: 12%;
     padding-left: 30px;
+  }
+}
+
+.portfolio header nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  margin-right: 3.5%;
+  margin-top: 2%;
+}
+.portfolio header nav img {
+  width: 6.5%;
+  padding: 0;
+}
+@media (min-width: 600px) {
+  .portfolio header nav {
+    gap: 15px;
+    padding-top: -10%;
+  }
+  .portfolio header nav img {
+    width: 3%;
+    padding: 0;
   }
 }
 
