@@ -189,7 +189,7 @@ header #section_1 .splash_text {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-top: -25%;
+    margin-top: -20%;
     padding-left: 50%;
   }
   header #section_1 nav img {
