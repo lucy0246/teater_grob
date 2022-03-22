@@ -52,7 +52,6 @@ a {
 h1 {
   font-family: rama-gothic-e, sans-serif;
   font-weight: 800;
-  font-style: Bold;
   font-size: 5rem;
   color: #7edff3;
 }
@@ -61,7 +60,6 @@ h2 {
   color: #95df7c;
   font-family: rama-gothic-e, sans-serif;
   font-weight: 500;
-  font-style: Bold;
   text-align: center;
   font-size: 2.5rem;
   padding-bottom: 30px;
@@ -72,7 +70,6 @@ h2 {
     color: #95df7c;
     font-family: rama-gothic-e, sans-serif;
     font-weight: 500;
-    font-style: Bold;
     text-align: center;
     font-size: 4rem;
     padding-bottom: 50px;
@@ -85,7 +82,6 @@ h3 {
   color: #7edff3;
   font-family: rama-gothic-e, sans-serif;
   font-weight: 300;
-  font-style: Bold;
   font-size: 2rem;
 }
 
@@ -94,14 +90,12 @@ h4 {
   color: #3000b4;
   font-family: rama-gothic-e, sans-serif;
   font-weight: 200;
-  font-style: Bold;
 }
 
 /* p tekst */
 p {
   color: #f8f8f8;
   font-family: azo-sans-web, sans-serif;
-  font-style: light;
   font-weight: 100;
   line-height: 40px;
   padding-top: 20px;
@@ -114,13 +108,11 @@ p {
 nav a {
   color: #f8f8f8;
   font-family: azo-sans-web, sans-serif;
-  font-style: light;
   font-weight: 100;
 }
 nav a:hover {
   color: #f203a7;
   font-family: azo-sans-web, sans-serif;
-  font-style: light;
   font-weight: 100;
 }
 
@@ -142,7 +134,6 @@ nav a:hover {
   animation: color-change 5s infinite;
   font-family: rama-gothic-e, sans-serif;
   font-weight: 800;
-  font-style: Bold;
   font-size: 5rem;
 }
 
@@ -328,7 +319,6 @@ ul {
   text-align: center;
   font-family: rama-gothic-e, sans-serif;
   font-weight: 500;
-  font-style: Bold;
 }
 
 .month ul {
@@ -366,7 +356,6 @@ ul {
   text-align: center;
   font-family: rama-gothic-e, sans-serif;
   font-weight: 500;
-  font-style: Bold;
   font-size: 1.4rem;
 }
 
@@ -386,7 +375,6 @@ ul {
   color: rgb(0, 0, 0);
   font-family: rama-gothic-e, sans-serif;
   font-weight: 500;
-  font-style: Bold;
 }
 
 .days li .active {
@@ -415,7 +403,6 @@ ul {
     text-align: center;
     font-family: rama-gothic-e, sans-serif;
     font-weight: 500;
-    font-style: Bold;
   }
   .weekdays li {
     display: inline-block;
@@ -423,7 +410,6 @@ ul {
     text-align: center;
     font-family: rama-gothic-e, sans-serif;
     font-weight: 500;
-    font-style: Bold;
     font-size: 1rem;
   }
 }
