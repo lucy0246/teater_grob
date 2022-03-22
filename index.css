@@ -229,6 +229,10 @@ header #section_1 .splash_text {
   padding: 20px;
 }
 
+#section_2 img {
+  border-radius: 130px;
+}
+
 @media (min-width: 600px) {
   #section_2 {
     padding: 60px;
